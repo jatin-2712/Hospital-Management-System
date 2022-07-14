@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeAppoinmentPageActivity">
+
+    <include layout="@layout/makeappoinmenttoolbar" />
+
+    <TextView
+        android:id="@+id/appoinment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:gravity="center"
+        android:text="Make an Appoinment"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/appoinment_title"
+        android:hint="Problem Description"
+        android:gravity="center"
+        android:id="@+id/problem_desc_appoinment"/>
+
+    <Spinner
+        android:id="@+id/availiblitySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/problem_desc_appoinment"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/timeframes"
+        android:gravity="center"
+        android:minHeight="20dp"
+        android:popupBackground="#fff">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/departmentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/availiblitySpinner"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:minHeight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/Departments"
+        android:gravity="center"
+        android:popupBackground="#fff">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/specilizationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/departmentSpinner"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="20dp"
+        android:entries="@array/Specialization"
+        android:gravity="center"
+        android:popupBackground="#fff">
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/specilizationSpinner"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/appoinment_home"
+            android:layout_height="match_parent"
+            android:text="Go back to Home"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/book_appoinment"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Book Appoinment"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

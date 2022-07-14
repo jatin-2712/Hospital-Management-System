@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/back_arrow.xml" value="0.162" />
+        <entry key="app/src/main/res/drawable/buttons_background.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable/ic_menu_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/sidemenu.xml" value="0.162" />
+        <entry key="app/src/main/res/layout/activity_admin_home_page.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_doctor_home_page.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_doctor_registration.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23368988037109373" />
+        <entry key="app/src/main/res/layout/activity_make_appoinment_page.xml" value="0.20245361328125" />
+        <entry key="app/src/main/res/layout/activity_patient_home_page.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_patient_registration.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/layout/activity_select_registration.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/layout/adminheaderfile.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/doctorheaderfile.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/headerfile.xml" value="0.23703703703703705" />
+        <entry key="app/src/main/res/layout/makeappoinmenttoolbar.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/patientheaderfile.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/toolbar_home.xml" value="0.30020591094888005" />
+        <entry key="app/src/main/res/menu/adminsidemenu.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/menu/doctorsidemenu.xml" value="0.2453125" />
+        <entry key="app/src/main/res/menu/sidemenu.xml" value="0.23703703703703705" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23703703703703705" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

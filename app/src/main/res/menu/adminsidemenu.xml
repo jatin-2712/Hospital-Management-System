@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/appoinment_menu"
+            android:icon="@drawable/appointment"
+            android:title="All Appoinments">
+
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Actions">
+
+            <menu>
+                <item android:title="All App Users"
+                    android:icon="@drawable/ic_users"
+                    android:id="@+id/all_app_users"/>
+                <item android:title="Patients"
+                    android:icon="@drawable/ic_profile"
+                    android:id="@+id/patients"/>
+                <item android:title="Doctors"
+                    android:icon="@drawable/doctor"
+                    android:id="@+id/doctors"/>
+
+                <item android:title="Profile"
+                    android:icon="@drawable/ic_profile"
+                    android:id="@+id/profile_menu"/>
+                <item android:title="Notifications"
+                    android:icon="@drawable/ic_notifications"
+                    android:id="@+id/profile_notifications"/>
+                <item android:title="Logout"
+                    android:icon="@drawable/ic_logout"
+                    android:id="@+id/profile_logout"/>
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Communicate">
+
+            <menu>
+
+                <item android:title="About this App"
+                    android:icon="@drawable/ic_about"
+                    android:id="@+id/about_menu"/>
+                <item android:title="Share App"
+                    android:icon="@drawable/ic_share"
+                    android:id="@+id/share_menu"/>
+                <item android:title="Rate this App"
+                    android:icon="@drawable/ic_rate"
+                    android:id="@+id/rate_menu"/>
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+
+
+
+
+
+
+</menu>
